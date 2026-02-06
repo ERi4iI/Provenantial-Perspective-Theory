@@ -48,9 +48,16 @@ I seek **co-authors**
 who wish to collaborate
 in publishing the concept.
 
+------
+
 ## Contents
 
-<img title="" src="file:///C:/Users/eugen/AppData/Roaming/marktext/images/2026-02-05-08-28-13-image.png" alt="" width="265">
+1.  Introduction
+2.  Definition
+3.  PPT & Euler's Identity
+4.  PPT ⊃ ST∪CT
+5.  The Cable Guy
+6.  PPT Research Program
 
 # 1. Introduction
 
