@@ -28,7 +28,8 @@ but are intended to inspire them.
 
 ## Goal 
 
-I am an independent researcher<br>who is working with any institution affiliation.
+I am an independent researcher<br>
+without institution affiliation.
 
 I am seeking **co-authors** interested in<br>
 transforming these papers for journal publications.
