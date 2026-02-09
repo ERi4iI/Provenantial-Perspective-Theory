@@ -2,7 +2,7 @@
 
 ### A Metatheory For Set Theory and Category Theory
 
-Author: ESr<br> 
+Author: Eugene S. Paik Sr.<br>
 Version: v1.0<br> 
 Date: 2026.02.04<br>
 
@@ -72,7 +72,7 @@ meta-mathematical angles.
 
 ## Novelty
 
-##### Onto-Epistemic vs. Ontic-Only
+#### Onto-Epistemic vs. Ontic-Only
 
 PPT is designed to support 
 ***onto-epistemic*** models 
@@ -87,7 +87,7 @@ onto-epistemic models
 model ***how*** we know 
 as well as what we know.
 
-##### Objects vs. Perspectives
+#### Objects vs. Perspectives
 
 PPT is an attempt
 to mathematize the philosophical debate
@@ -112,7 +112,7 @@ of each Perspective.
 The aggregate of provenance
 is referred to as the **p-dimension**.
 
-##### Instances vs. Classes
+#### Instances vs. Classes
 
 Object-Oriented Programming (OOP)
 provides a framework to conceptualize
@@ -121,7 +121,7 @@ this distinction:
 - ST is a framework for defining classes of instances. Classes encode the invariants across instances.
 - PPT models the space of instances themselves, not just their classes.
 
-##### Immutable vs. Dynamic Objects
+#### Immutable vs. Dynamic Objects
 
 In PPT, 
 a Perspective is immutable.
@@ -141,7 +141,7 @@ Hence,
 a Perspective is immutable
 and undeletable.
 
-##### Complex vs. Scalar Mathematics
+#### Complex vs. Scalar Mathematics
 
 PPT vs. Std Math is like
 the difference between 
@@ -221,7 +221,7 @@ PTT is like Java.
 
 By addressing mutual containment,
 PPT resolves **Russell's Paradox** (RP)
-as well as **Godel's Incompleteness Theorem** (GIT).
+as well as **Gödel's Incompleteness Theorem** (GIT).
 
 Both RP and GIT are shown to be
 paradoxes that arise from 
@@ -261,25 +261,25 @@ In Provenatial Perspective Theory (PPT):
      Meaning: the Source ($S$) 
      of Views in a Perspective $P$
      is $P$ itself.
-   * $T = V | P$.
+   * $T = V\ |\ P$.
      The Target ($T$) is either 
      A) a Perspective, or 
      B) a View within a Perspective.
 
-3. $\{Pid|\ V^*\}$ denotes
-   Perspective (uniqued identified by PID)
+3. $\{Pid:\ V^*\}$ denotes
+   Perspective (uniquely identified by Pid)
    with Views ($V^*$), where each V is: 
    
-   - $V=<P_1, P_2>$ denotes 
-     a View ($V$) of Perspective $P_2$ from Prspective $P_1$.
+   - **$V=<P_1,\ P_2>$** denotes 
+     a View ($V$) of Perspective $P_2$ from Perspective $P_1$.
      Here, the Target (T) is a Perspective. 
    
-   - **V1 = \<P, V2>** denotes 
-     a View ($V1$) of a View ($V2$) from Prspective ($P$).
+   - **$V_1 = <P,\ V_2>$** denotes 
+     a View ($V1$) of a View ($V2$) from Perspective ($P$).
      Here, the Target ($T$) is a View ($V2$).
    
    $V ∈ P$ denotes that
-   a View ($V=<S, T>$) is an element of Perspective ($P$),
+   a View ($V=<S,\ T>$) is an element of Perspective ($P$),
    where $S=P$.
    It is a syntax error if $S≠P$.
 
@@ -306,7 +306,7 @@ distinct semantics for "**equality**":
   can point to the exact same targets 
   without being equal, 
   because the identity 
-  is dependent on their PID
+  is dependent on their Pid
   not just their structure.
 
 With its definition of equality,
@@ -352,7 +352,7 @@ and Regular Expression
 to define the language PPT,
 i.e., the set of syntactically valid statements.
 
-Spefically: 
+Specifically: 
 
 * $X^*$ – refers to zero or more 
   comma separated instances of $X$:
@@ -363,12 +363,12 @@ Spefically:
 
 A Perspective is denoted as follows:
 
-$P = \{Pid|\ V^*\}$, where 
+$P = \{Pid: \ V^*\}$, where 
 
 * PID: unique identifier of the Perspective ($P$)
 * $V = <S, T>$
 * $S = Pid$
-* $T = P|V$
+* $T = P\ |\ V$
 
 ### Perspective
 
@@ -379,12 +379,12 @@ as the identity of the Perspective
 is copied in each view.
 Given Perspective P:
 
-$P = \{Pid|\ 〈Pid,T_1 〉, 〈Pid,T_2 〉, …, 〈Pid,T_n〉\}$
+$P = \{Pid:\ 〈Pid,T_1 〉, 〈Pid,T_2 〉, …, 〈Pid,T_n〉\}$
 
 The short form
 eliminates the redundant Pids
 in the views: 
-$P = \{Pid|\ T_1, T_2, …, T_n〉\}$
+$P = \{Pid:\ T_1, T_2, …, T_n〉\}$
 
 ### Views
 
@@ -595,18 +595,17 @@ Here're two view of Euler's Identity.
 First, Euler's formula projected flat—
 the wave appears to cross itself.
 
-![](https://upload.wikimedia.org/wikipedia/commons/b/bd/Sine_and_cosine_animation.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/b/bd/Sine_and_cosine_animation.gif )
 
 The same motion in full dimensionality—
 a spiral that never self-intersects.
 
-<img title="" src="https://th.bing.com/th/id/R.07b40c49ee90e2ba112a078286d34eb2?rik=VqIMf%2fnDiDSnzA&riu=http%3a%2f%2fstatic1.businessinsider.com%2fimage%2f51910f38eab8ea4c31000002%2f0tlnknd+-+imgur.gif&ehk=ptCSpZdoa4m1%2fCfuDMBbqRWjMIqLdkpYU6u3EspLV%2bA%3d&risl=&pid=ImgRaw&r=0" alt="" data-align="inline" width="176">
+<img title="" src="https://th.bing.com/th/id/R.07b40c49ee90e2ba112a078286d34eb2?rik=VqIMf%2fnDiDSnzA&riu=http%3a%2f%2fstatic1.businessinsider.com%2fimage%2f51910f38eab8ea4c31000002%2f0tlnknd+-+imgur.gif&ehk=ptCSpZdoa4m1%2fCfuDMBbqRWjMIqLdkpYU6u3EspLV%2bA%3d&risl=&pid=ImgRaw&r=0" alt="" data-align="inline" width="300">
 
 Russell's Paradox is the first figure 
 mistaken for reality. 
 
 PPT is second figure,
-
 where the ***spiral*** that resolves paradox 
 with another dimension: 
 depth = provenance.
@@ -619,11 +618,13 @@ depth = provenance.
 
 Sonnet asked:
 
->  What other assumptions am I importing from ST/CT that misread what PPT is actually doing?
+>  What other assumptions 
+>  am I importing from ST/CT 
+>  that misread what PPT is actually doing?
 
 Excellent STANDARD question. But again, you're operating within an old framework, this time because you underestimate what the first change (elements from scalar to vector, and distinctness of two Perspectives with identical structures) means, what it implies.
 
-That first one thing changes EVERYTHING. So, from my pov (FMPOV), you're looking for more gold nuggets when I've handed you a city built of gold. You're still looking for crumbs under the tables when you've been invited to patty with food on the table.
+That first one thing changes EVERYTHING. So FMPOV, you're looking for more gold nuggets when I've handed you a city built of gold. You're still looking for crumbs under the tables when you've been invited to party to enjoy the food on the table.
 
 Does this make sense?
 
@@ -659,7 +660,8 @@ What does it generate?
 
 The easiest answer to: 
 
-* What does provenance-as-intrinsic-to-elements actually GENERATE? 
+* What does provenance-as-intrinsic-to-elements 
+   actually GENERATE? 
 
 is that PPT "generates" ST and CT. 
 
