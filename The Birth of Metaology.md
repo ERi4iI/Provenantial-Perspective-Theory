@@ -670,7 +670,7 @@ and react.
 
 A title something like...
 
-*  **Metalogical Approach to Metamath** 
+*  **Metaological Approach to Metamath** 
    Adding Depth to Wolfram and Chaitin's Approaches
 
 *What do you think?* 
